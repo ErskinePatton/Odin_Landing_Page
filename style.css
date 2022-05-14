@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top-container {
+  height: 30%;
+  width: auto;
+  background-color: red;
+}
+
+.title-container {
+  height: 25%;
+  width: auto;
+  background-color: blue;
+}
+
+.quote-container {
+  height: 25%;
+  width: auto;
+  background-color: green;
+}
+
+.button-container {
+  height: 15%;
+  width: auto;
+  background-color: purple;
+}
+
+.footer {
+  height: 5%;
+  width: auto;
+  background-color: yellow;
+}
