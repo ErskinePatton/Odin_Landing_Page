@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -10,32 +14,34 @@ body {
   width: 100vw;
 }
 
-.top-container {
+.hero-container,
+.footer {
+  background-color: #1f2937;
+}
+
+.hero-container {
   height: 30%;
   width: auto;
-  background-color: red;
+  display: flex;
 }
 
 .title-container {
   height: 25%;
   width: auto;
-  background-color: blue;
 }
 
 .quote-container {
   height: 25%;
   width: auto;
-  background-color: green;
+  background-color: #e5e7eb;
 }
 
 .button-container {
   height: 15%;
   width: auto;
-  background-color: purple;
 }
 
 .footer {
   height: 5%;
   width: auto;
-  background-color: yellow;
 }
